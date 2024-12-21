@@ -1,0 +1,22 @@
+#rodape{
+    display: flex;
+    color: white;
+
+
+}
+
+
+
+.iBro{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 25px;
+    font-size: 14px;
+
+}
+
+.iBro img{
+    width: 130px;
+}
+

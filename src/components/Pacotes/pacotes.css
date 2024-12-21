@@ -1,0 +1,49 @@
+ .pacotes{
+    display: flex;
+    justify-content: space-evenly; 
+    
+    padding: 10px;
+
+    position: relative;
+        
+}     
+
+.pacote{
+    width: 300px;
+    font-size: 20px;
+    background-color: rgba(6, 16, 65, 1);
+    padding: 40px;
+    border: solid;
+    color: white;
+    justify-content: space-between;
+    height: 406px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.pacote h2{
+ font-size: 25px;
+ justify-content: center;
+ align-items: center; 
+ margin-bottom: 30px;
+
+}
+
+.botao{
+
+    display: flex;
+    position: absolute;
+    bottom: 22px;
+    margin-left: 11px;
+    
+}
+
+
+
+
+
+
+
+  

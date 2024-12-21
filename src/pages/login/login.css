@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;    padding: 0;
+    box-sizing: border-box;
+}
+#containerLogin{
+    background-image: url(./imagens-login/velocimetroFundos.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+
+}
+label{
+    margin-right: 108px;
+
+}
+
+
+
+#loginVidro{
+
+background: rgba( 255, 255, 255, 0.15 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+width: 70%;
+height: 70%;
+color: white;
+display: flex;
+justify-content: space-around;
+hr{ opacity: 0.2;}
+
+}
+
+.loginCadastro{
+
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    justify-content:center ;
+    align-items: center;
+    h3{ font-size: 30px;}
+    p{ font-size: 23px; margin-top: 20px;}
+}
+
+.loginAcesso input{
+    width: 150px;
+}
+.loginButton button{
+    font-size: 14px;
+    background-color: rgba(51, 48, 48, 1) ;
+    width: 140px;
+    height: 40px
+    ;
+    
+}
+.loginButton{margin-top: 35px;}
+.loginAcesso{
+width: 59%;
+display: flex; 
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: px;
+h3{font-size: 34px; margin-bottom: 20px;}
+}
+

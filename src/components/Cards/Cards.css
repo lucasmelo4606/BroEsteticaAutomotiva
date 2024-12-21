@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+    .card1 {
+        width: 100%; 
+    }
+    #cards {
+        justify-content: center;
+    }
+}
+
+#cards{
+    color: white;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+.card1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: solid;
+    margin-bottom: 15px;
+}
+.cardImagem img{
+    width: 80%;
+    border-radius: 5px;
+}
+.cardImagem{
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+
+    padding: 20px;
+
+}
+
+.cardTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.cardTxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+
+}
+
+.cardButton{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}

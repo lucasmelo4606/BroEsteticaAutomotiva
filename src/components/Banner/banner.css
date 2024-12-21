@@ -1,0 +1,50 @@
+.Banner{
+    
+
+
+    background-image: url(./imagens-banner/banner.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+
+    
+
+    h2{
+        color: #5473E0 ;
+        font-size: 35px;
+        width: 320px;
+        margin-left: 30px;
+    }
+
+    p{
+        color: white;
+        font-size: 17px;
+        width: 280px;
+        margin-left: 30px;
+    }
+    
+}
+.Banner img{
+    margin-top: -rem;
+    margin-left: 15px;
+}
+
+.bannerTxt{
+    margin-top: -3rem;
+    margin-left: 15px;
+
+    
+}
+
+.bbs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    
+}
+
+.button2{
+    margin-top: 6px;
+    margin-bottom: 3px;
+    margin-left: 60px;
+}

@@ -1,0 +1,11 @@
+.ButHome{
+    width: 12rem;
+    height: 45px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    align-self: center;
+    font-size: 20px;
+    cursor: pointer;
+
+}

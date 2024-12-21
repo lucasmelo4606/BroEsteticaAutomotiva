@@ -1,0 +1,30 @@
+nav{
+    background-color: #13141F;
+    height: 45px;
+
+  
+
+}
+ nav a{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ nav img{
+    width: 50px;
+ }
+.navs{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.navs1 {
+    background-color: transparent;
+    gap: 20px;
+  display: flex;
+}
+  
+
+    
