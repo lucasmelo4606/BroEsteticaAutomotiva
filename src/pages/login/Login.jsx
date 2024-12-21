@@ -27,6 +27,7 @@ export const Login = () => {
 
             <div className="loginButton" style={{ marginTop: 10 }} >
               <ButtonHome BHome={"ACESSO"} />
+              
             </div>
             
           </div>
