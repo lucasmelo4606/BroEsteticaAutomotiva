@@ -13,12 +13,12 @@
     font-size: 20px;
     background-color: rgba(6, 16, 65, 1);
     padding: 40px;
-    border: solid;
-    color: white;
+   color: white;
     justify-content: space-between;
     height: 406px;
     justify-content: center;
     align-items: center;
+    border-radius: 10px 10px 0 0;
 
     
 }
