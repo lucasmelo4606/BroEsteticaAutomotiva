@@ -1,5 +1,7 @@
 import { ButtonHome } from "../ButtonHome/ButtonHome";
 import "./Cards.css";
+// import {whatsApp} from "../Banner/Banner"
+
 
 // imagens dos cards
 import polimento from "./imagensCards/polimento.svg";
@@ -25,7 +27,7 @@ export const Cards = ({ CardImagem, CardTitulo, CardTxt, }) => {
         </div>
         <div className="cardButton">
           
-          <ButtonHome BHome = {'Agendar Serviço'}/> 
+          <ButtonHome  BHome = {'Agendar Serviço'}/> 
         </div>
         
       </div>

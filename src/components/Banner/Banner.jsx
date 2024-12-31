@@ -2,8 +2,14 @@ import { ButtonBanner } from "./ButtonBanner/ButtonBanner";
 import "./banner.css";
 import carroBanner from "./imagens-banner/carro-banner.png";
 
-
 export function Banner() {
+  const whatsApp = () => {
+    const whats = "5511917814697";
+    const txtWapp = encodeURIComponent("Seja bem-vindo");
+    const link = `https://wa.me/${whats}?text=${txtWapp}`;
+    window.location.href = link;
+  };
+
   return (
     <section className="Banner">
       <img src={carroBanner} alt="" />
@@ -16,10 +22,10 @@ export function Banner() {
         </p>
         <div className="bbs">
           <div className="button1">
-            <ButtonBanner buttonBanner={"Confira Nossos Serviços"} />
+            <ButtonBanner buttonBanner="Confira Nossos Serviços" onClick={whatsApp} />
           </div>
           <div className="button2">
-            <ButtonBanner buttonBanner={"Agendamento Grátis"} className />
+            <ButtonBanner buttonBanner="Agendamento Grátis" onClick={whatsApp} />
           </div>
         </div>
       </div>

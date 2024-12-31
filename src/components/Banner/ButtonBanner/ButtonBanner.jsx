@@ -1,13 +1,9 @@
-import "./buttonBanner.css"
+import "./buttonBanner.css";
 
-export const ButtonBanner = ({buttonBanner}) =>{
-    return(
-     <button className="BB"> {buttonBanner} </button>
-
-
-    );
-} 
-
-
-
-
+export const ButtonBanner = ({ buttonBanner, onClick }) => {
+  return (
+    <button className="BB" onClick={onClick}>
+      {buttonBanner}
+    </button>
+  );
+};
