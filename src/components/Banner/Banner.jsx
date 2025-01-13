@@ -2,13 +2,15 @@ import { ButtonBanner } from "./ButtonBanner/ButtonBanner";
 import "./banner.css";
 import carroBanner from "./imagens-banner/carro-banner.png";
 
+
+export const whatsApp = () => {
+  const whats = "5511917814697";
+  const txtWapp = encodeURIComponent("Seja bem-vindo");
+  const link = `https://wa.me/${whats}?text=${txtWapp}`;
+  window.location.href = link;
+};
+
 export function Banner() {
-  const whatsApp = () => {
-    const whats = "5511917814697";
-    const txtWapp = encodeURIComponent("Seja bem-vindo");
-    const link = `https://wa.me/${whats}?text=${txtWapp}`;
-    window.location.href = link;
-  };
 
   return (
     <section className="Banner">

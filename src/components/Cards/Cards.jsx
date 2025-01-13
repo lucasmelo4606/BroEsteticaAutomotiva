@@ -1,6 +1,7 @@
 import { ButtonHome } from "../ButtonHome/ButtonHome";
 import "./Cards.css";
-// import {whatsApp} from "../Banner/Banner"
+// import { whatsApp } from './Banner';
+
 
 
 // imagens dos cards
@@ -27,7 +28,7 @@ export const Cards = ({ CardImagem, CardTitulo, CardTxt, }) => {
         </div>
         <div className="cardButton">
           
-          <ButtonHome  BHome = {'Agendar Serviço'}/> 
+          <ButtonHome  BHome = {'Agendar Serviço'} /> 
         </div>
         
       </div>

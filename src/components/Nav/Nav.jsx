@@ -11,14 +11,12 @@ export const Nav = () => {
         </div>
         <div className="navs1">
           <Link to="/"> Home</Link>
-          <Link to="/Cadastro"> CADASTRO</Link>
-         
-          <a>CADASTRO</a>
-          <a>CONTATO</a>
-          <a>FAQ</a>
+          <Link to="/Cadastro"> Cadastro</Link>
+         <Link to="">Contato</Link>
+          <Link to="">Faq</Link>
         </div>
         <div className="navs1">
-          <a>LOGIN</a>
+          <Link to="">Login</Link>
         </div>
       </div>
     </nav>
