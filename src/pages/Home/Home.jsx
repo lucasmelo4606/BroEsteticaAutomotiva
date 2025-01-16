@@ -7,6 +7,7 @@ import { Rodape } from "../../components/rodape/Rodape"
 import { Nav } from "../../components/Nav/Nav"
 
 
+
 export const Home = () =>{
 
     return(

@@ -2,6 +2,7 @@
 import { Nav } from "../../components/Nav/Nav"
 import "./cadastro.css"
 import {ButtonHome} from "./../../components/ButtonHome/ButtonHome"
+import InputMask from 'react-input-mask';
 export const Cadastro = () =>{
 
 return(
@@ -17,21 +18,21 @@ return(
                         <label htmlFor="nome">Nome:</label>
                         <input type="text" id="nome" name="nome" required></input>
                         <label htmlFor="rg">RG:</label>
-                        <input type="number" id="rg" name="rg" placeholder="00.000.000-0" required></input>
+                        <InputMask  type="*" mask=" 99.999.999- *" maskChar=" " required />
                         <label htmlFor="celular">Celular:</label>
-                        <input type="tel" id="celular" name="celular" pattern="[0-9]{2} [0-9]{9}" placeholder="(DD)xxxx-xxxx" required></input>
+                        <InputMask  mask="+5\5 (99) 9999 99999" maskChar=" " required />
                         <label htmlFor="endereco">Endereço:</label>
                         <input type="text" id="endereco" name="endereco" required></input>
                         <label htmlFor="cep">Cep:</label>
-                        <input type="text" id="cep" name="cep" pattern="{5}-{3}" placeholder="00000-000" required></input>
+                        <InputMask  mask="99999-999" maskChar=" " required />
 
                         <legend> Cadastro Veiculo</legend>  
                         <label htmlFor="modelo">Modelo do Carro:</label>
                         <input type="text" id="modelo" name="modelo" required></input>
                         <label htmlFor="ano">Ano:</label>
-                        <input type="number" id="ano" name="ano" min="1990" max="2025" required></input>
+                        <input type="number" id="ano" name="ano" min="1990" max="2027" required></input>
                         <label htmlFor="placa">Placa:</label>           
-                        <input type="text" id="placa" name="placa" pattern="[A-Z]{3}-\d{4}" style={{ textTransform: 'uppercase' }} required />
+                        < InputMask  mask="aaa9*99" maskChar=" " required />
                         <label htmlFor="renaven">Renavan:</label>
                         <input type="text" id="renavam" name="renavam" pattern="\d{11}" maxLength={11}  required></input>
 

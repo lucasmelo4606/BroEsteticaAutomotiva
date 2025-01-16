@@ -1,17 +1,17 @@
 #cadastroPlanoFundo{
 
-    /* background-image: url(./imagensCadastro/cadastroPlanoFundo.svg); */
     background-position:center;
     background-repeat: no-repeat;
     background-size: contain;
     object-fit: contain;
-    height: 120vh;
-    gap: 10px;
+    height: 130vh;
+  
   
 }
 #cadastroFormulario{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
 
 }
@@ -42,6 +42,7 @@ fieldset input {
   margin-bottom: 8px; 
   font-size: 15px;
   font-weight: bold;
+margin-left: 11%;
 
 }
 
