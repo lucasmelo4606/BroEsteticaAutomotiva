@@ -1,3 +1,4 @@
+import { whatsApp } from "../Banner/Banner";
 import { ButtonHome } from "../ButtonHome/ButtonHome";
 import "./Cards.css";
 // import { whatsApp } from './Banner';
@@ -8,6 +9,7 @@ import "./Cards.css";
 import polimento from "./imagensCards/polimento.svg";
 
 export const Cards = ({ CardImagem, CardTitulo, CardTxt, }) => {
+  whatsApp 
   return (
     <div id="cards">
       <div className="card1">
@@ -16,7 +18,7 @@ export const Cards = ({ CardImagem, CardTitulo, CardTxt, }) => {
           {CardImagem} <img src={polimento} alt="" />
         </div>
         <div className="cardTitulo">
-          {CardTitulo} <h3>Polimento</h3>
+          {CardTitulo} <h3>oleo</h3>
         </div>
         <div className="cardTxt">
           {CardTxt}
@@ -28,7 +30,7 @@ export const Cards = ({ CardImagem, CardTitulo, CardTxt, }) => {
         </div>
         <div className="cardButton">
           
-          <ButtonHome  BHome = {'Agendar Serviço'} /> 
+          <ButtonHome  WhatsApp={whatsApp} BHome = {'Agendar Serviço'} /> 
         </div>
         
       </div>
