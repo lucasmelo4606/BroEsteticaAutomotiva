@@ -1,52 +1,97 @@
- .pacotes{
+.pacotes {
     display: flex;
-    justify-content: space-evenly; 
-    
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 10px;
-
     position: relative;
     margin-bottom: 14px;
-    
-        
-}     
+}
 
-.pacote{
+.pacote {
     width: 300px;
     font-size: 20px;
     background-color: rgba(6, 16, 65, 1);
     padding: 40px;
-   color: white;
-    justify-content: space-between;
-    height: 406px;
-    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    border-radius: 10px ;
-
-
-    
+    border-radius: 10px;
+    height: 406px;
+    text-align: center;
 }
 
-.pacote h2{
- font-size: 25px;
- justify-content: center;
- align-items: center; 
- margin-bottom: 30px;
-
+.pacote h2 {
+    font-size: 25px;
+    margin-bottom: 30px;
 }
 
-.botao{
-
+.botao {
     display: flex;
     position: absolute;
     bottom: 22px;
     margin-left: 11px;
-    
 }
 
+/* Responsividade */
+@media (max-width: 768px) {
+    .Banner {
+        height: auto;
+        padding: 20px;
+    }
 
+    .Banner h2 {
+        font-size: 1.8rem;
+        margin-left: 20px;
+    }
 
+    .Banner p {
+        font-size: 0.9rem;
+        margin-left: 20px;
+    }
 
+    .bbs {
+        margin-left: 20px;
+    }
 
+    .button2 {
+        margin-left: 40px;
+    }
 
+    .pacotes {
+        flex-direction: column;
+        align-items: center;
+    }
 
-  
+    .pacote {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Banner {
+        text-align: center;
+        align-items: center;
+    }
+
+    .Banner h2, .Banner p {
+        margin-left: 0;
+        width: auto;
+    }
+
+    .bbs, .button2 {
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .pacotes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pacote {
+        width: 100%;
+        padding: 20px;
+    }
+}

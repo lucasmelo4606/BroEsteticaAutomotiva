@@ -8,6 +8,7 @@ import { Nav } from "../../components/Nav/Nav"
 
 
 
+
 export const Home = () =>{
 
     return(
@@ -20,6 +21,7 @@ export const Home = () =>{
             <Cards />
             <Info />
             <Rodape />
+            
         </>
 
 

@@ -2,9 +2,10 @@ import { createRoot } from "react-dom/client";
 import "./main.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 //  pages
-import { Login } from "./pages/login/Login";
+
 import { Home } from "./pages/Home/Home";
 import { Cadastro } from "./pages/Cadastro/Cadastro";
+import { Login } from "./pages/login/Login";
 
 
 

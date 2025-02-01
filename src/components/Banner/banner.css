@@ -1,51 +1,95 @@
-.Banner{
-    
-
-
+.Banner {
     background-image: url(./imagens-banner/banner.png);
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    height: 100%;
+    height: 100vh; /* Ajusta a altura para ocupar toda a tela */
     background-repeat: no-repeat;
-
-    
-
-    h2{
-        color: #5473E0 ;
-        font-size: 35px;
-        width: 320px;
-        margin-left: 30px;
-    }
-
-    p{
-        color: white;
-        font-size: 17px;
-        width: 280px;
-        margin-left: 30px;
-    }
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    box-sizing: border-box;
 }
-.Banner img{
-    margin-top: -rem;
+
+.Banner h2 {
+    color: #5473E0;
+    font-size: 2rem;
+    max-width: 320px;
+    margin-left: 30px;
+}
+
+.Banner p {
+    color: white;
+    font-size: 1rem;
+    max-width: 280px;
+    margin-left: 30px;
+}
+
+.Banner img {
     margin-left: 15px;
+    max-width: 100%;
+    height: auto;
 }
 
-.bannerTxt{
+.bannerTxt {
     margin-top: -3rem;
     margin-left: 15px;
-
-    
 }
 
-.bbs{
+.bbs {
     display: flex;
     flex-direction: column;
     margin-left: 30px;
     margin-top: 10px;
-    
 }
 
-.button2{
+.button2 {
     margin-top: 10px;
     margin-bottom: 25px;
     margin-left: 60px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .Banner {
+        height: auto;
+        padding: 20px;
+    }
+
+    .Banner h2 {
+        font-size: 1.8rem;
+        margin-left: 20px;
+    }
+
+    .Banner p {
+        font-size: 0.9rem;
+        margin-left: 20px;
+    }
+
+    .bbs {
+        margin-left: 20px;
+    }
+
+    .button2 {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Banner {
+        text-align: center;
+        align-items: center;
+    }
+
+    .Banner h2, .Banner p {
+        margin-left: 0;
+        width: auto;
+    }
+
+    .bbs, .button2 {
+        margin-left: 0;
+        align-items: center;
+    }
 }
